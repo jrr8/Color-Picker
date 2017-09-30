@@ -1,0 +1,49 @@
+#gameDiv {
+    background-color: #eaf3f9;
+    text-align: center;
+}
+
+.centerFill {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 1em;
+}
+
+.gameButton {
+    position: relative;
+    top: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#gameCanvas {
+    border: 5px solid lightslategray;
+    display: none;
+}
+
+#timer {
+    font-size: 40px;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#score {
+    position: absolute;
+    right: 0;
+    font-size: 40px;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#leaderBoard {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
